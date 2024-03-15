@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/config.css">
+    <link rel="stylesheet" href="./assets/css/contact.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a class="nav__link" href="./index.html">Home</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./entreprise.html">Entreprise</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./realisations.html">Réalisations</a></li>
+                    <li class="nav__item"><a class="nav__link" href="./contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section section__contact">
+            <div class="contact__container container">
+                <form action="submit" class="form">
+                    <h1>Contact</h1>
+                    <div class="form__input">
+                        <label for="civil">Civiliter:</label>
+                        <select name="civil" id="select-civil">
+                            <option value="Monsieur">Monsieur</option>
+                            <option value="Madame">Madame</option>
+                        </select>
+                    </div>
+                    <div class="form__row">
+                        <div class="form__input">
+                            <label for="lastname">Nom:</label>
+                            <input type="text" name="lastname">
+                        </div>
+                        <div class="form__input">
+                            <label for="name">Prenom:</label>
+                            <input type="text" name="name">
+                        </div>
+                    </div>
+                    <div class="form__input">
+                        <label for="adress">Adress Postale:</label>
+                        <input type="text" name="adress">
+                    </div>
+                    <button class="form__button">Envoyer</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

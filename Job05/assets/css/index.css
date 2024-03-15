@@ -1,0 +1,47 @@
+/* HOME */
+
+.home__title,
+.home__description {
+  text-align: center;
+}
+
+.home__title {
+  font-family: var(--title-font);
+  font-size: var(--big-font-size);
+  margin-bottom: 1rem;
+}
+
+/* SERVICES */
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 1rem;
+}
+
+.services__card {
+  flex: 1;
+}
+
+.services__card_title {
+  font-size: var(--font-medium);
+}
+
+.services__card_descritpion {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+}
+
+.icon {
+  margin-right: 20px;
+  color: rgb(65, 158, 235);
+}
+
+@media screen and (max-width: 1050px) {
+  .services__cards {
+    flex-direction: column;
+  }
+}
